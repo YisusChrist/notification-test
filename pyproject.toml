@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "notification-test"
+version = "0.1.0"
+description = ""
+authors = ["Alejandro González Momblán <agelrenorenardo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+windows-toasts = "^1.0.1"
+plyer = "^2.1.0"
+rich = "^13.7.0"
+notify-py = "^0.3.42"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
